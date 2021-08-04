@@ -1,0 +1,32 @@
+.meaning-main-div{
+    width:80%;
+    min-height: 30vh;
+    background-color: #C36B6B;
+    border-radius: 7px;
+    margin:0.8rem 0;
+    color:white;
+    font-size:0.8rem;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Shapiro 55 Middle Ext';
+    .inside-text{
+        margin:0.9rem;
+        color:rgb(230, 230, 230);
+        .make-bold{
+            color:white;
+            font-weight: bold;
+        }
+    }
+    @media screen and (max-width:1300px) {
+        font-size:0.8rem;
+        min-height:35vh;
+    }
+    @media screen and (max-width:600px) {
+        font-size:0.5rem;
+        min-height:30vh;
+    }
+    
+
+ 
+}

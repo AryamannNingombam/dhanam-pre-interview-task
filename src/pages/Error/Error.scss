@@ -1,0 +1,74 @@
+.error-page-main-container{
+    min-height:100vh;
+    width:100%;
+    background-color: #BA5E5E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: 'Shapiro 55 Middle Ext';
+    .not-found-heading{
+        font-size:9rem;
+        @media screen and (max-width:1200px) {
+            font-size:6rem;            
+        }
+        @media screen and (max-width:800px){
+            font-size:4rem;
+        }
+        @media screen and (max-width:550px){
+            font-size:3rem;
+        }
+        @media screen and (max-width:400px){
+            font-size:1.9rem;
+        }
+        @media screen and (max-width:250px){
+            font-size:1.2rem;
+        }
+    }
+    .subtitle-text{
+        font-size:1.3rem;
+        text-transform: uppercase;
+        @media screen and (max-width:1200px) {
+            font-size:1rem;            
+        }
+        @media screen and (max-width:800px){
+            font-size:0.8rem;
+        }
+        @media screen and (max-width:550px){
+            font-size:0.6rem;
+        }
+        @media screen and (max-width:400px){
+            font-size:0.4rem;
+        }
+        @media screen and (max-width:250px){
+            font-size:0.3rem;
+        }
+    }
+    .home-button{
+        margin:3rem 0;
+        background-color: #9D5252;
+        width:10rem;
+        height:2.7rem;
+        border:none;
+        border-radius:7px;
+        transition:0.6s ease-in-out;
+        &:hover{
+            background-color:#cc4e4e;
+        }
+        @media screen and (max-width:1200px) {
+            width:8rem;
+            height:2.4rem;           
+        }
+        @media screen and (max-width:400px){
+            width:6rem;
+            height:2.4rem; 
+            font-size:0.8rem;
+        }
+        @media screen and (max-width:250px){
+            font-size:0.5rem;
+            width:4rem;
+        }
+    
+    }
+}
